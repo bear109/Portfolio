@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 
 function Navbar() {
   return (
-    <header className="text-gray-600 body-font">
+    <header className="text-gray-600">
       <div css={style.navbarWrapper}>
         <a css={style.logoText} href="./" >bear109&apos;s portfolio</a>
         <nav css={style.navTextWrapper}>

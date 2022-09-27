@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 
 function Footer() {
   return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-600">
       <div css={style.footerWrapper}>
         <span css={style.footerMainText}>bear109&apos;s portfolio</span>
         <p css={style.copyrightText}>© 2022 Seo Seung Han - all rights reserved
