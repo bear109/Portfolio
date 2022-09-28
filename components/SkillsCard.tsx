@@ -30,7 +30,7 @@ const style = {
   `,
   card: tw`
     bg-gray-100
-    p-6
+    p-4
     rounded-lg
   `,
   image: tw`
@@ -43,7 +43,7 @@ const style = {
     relative
   `,
   cardTitle: tw`
-    text-xl
+    text-2xl
     text-gray-900
     font-bold
     mb-4
