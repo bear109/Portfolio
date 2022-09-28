@@ -1,15 +1,13 @@
+import AboutMe from 'components/AboutMe'
+import Skills from 'components/Skills'
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import tw from 'twin.macro'
-import styles from '../styles/Home.module.css'
-
-
-
 
 const Home: NextPage = () => {
   return (
-    <div>home</div>
+    <>
+      <AboutMe />
+      <Skills />
+    </>
   )
 }
 
