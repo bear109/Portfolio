@@ -1,8 +1,8 @@
-import React from 'react'
-import tw from 'twin.macro'
-import { DiGithubBadge } from 'react-icons/di'
-import { MdEmail, MdCall } from 'react-icons/md'
-import Link from 'next/link'
+import React from 'react';
+import tw from 'twin.macro';
+import { DiGithubBadge } from 'react-icons/di';
+import { MdEmail, MdCall } from 'react-icons/md';
+import Link from 'next/link';
 
 function ContactMe() {
   return (
@@ -12,14 +12,16 @@ function ContactMe() {
           <h1 css={style.titleText}>Contact Me</h1>
         </div>
         <div css={style.contentWrapper}>
-          <div css={style.cardWrapper} >
+          <div css={style.cardWrapper}>
             <div css={style.card}>
               <div css={style.iconWrapper}>
                 <DiGithubBadge size={100} />
               </div>
               <div css={style.textWrapper}>
                 <h2 css={style.cardTitle}>GitHub</h2>
-                <Link href='https://github.com/bear109' css={style.cardDescription}>github.com/bear109</Link>
+                <Link href="https://github.com/bear109" css={style.cardDescription}>
+                  github.com/bear109
+                </Link>
               </div>
             </div>
           </div>
@@ -30,7 +32,9 @@ function ContactMe() {
               </div>
               <div css={style.textWrapper}>
                 <h2 css={style.cardTitle}>Mail</h2>
-                <Link href='mailto:jokerbear109@gmail.com' css={style.cardDescription}>jokerbear109@gmail.com</Link>
+                <Link href="mailto:jokerbear109@gmail.com" css={style.cardDescription}>
+                  jokerbear109@gmail.com
+                </Link>
               </div>
             </div>
           </div>
@@ -48,7 +52,7 @@ function ContactMe() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 const style = {
@@ -123,7 +127,7 @@ const style = {
   cardDescription: tw`
     leading-relaxed
     text-base
-  `
-}
+  `,
+};
 
-export default ContactMe
+export default ContactMe;

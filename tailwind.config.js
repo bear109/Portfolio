@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         nanum: ['NanumSquare'],
       },
+      height: {
+        100: '42rem',
+      },
     },
   },
   plugins: [],

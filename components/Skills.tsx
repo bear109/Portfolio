@@ -1,51 +1,50 @@
-import React from 'react'
-import tw from 'twin.macro'
-import SkillsCard from './SkillsCard'
+import React from 'react';
+import tw from 'twin.macro';
+import SkillsCard from './SkillsCard';
 
 function Skills() {
-
   const skillList = [
     {
       id: 1,
       img: '/images/JS.png',
-      title: 'HTML & CSS & JavaScript'
+      title: 'HTML & CSS & JavaScript',
     },
     {
       id: 2,
       img: '/images/TS.png',
-      title: 'TypeScript'
+      title: 'TypeScript',
     },
     {
       id: 3,
       img: '/images/react.png',
-      title: 'React'
+      title: 'React',
     },
     {
       id: 4,
       img: '/images/redux.png',
-      title: 'Redux'
+      title: 'Redux',
     },
     {
       id: 5,
       img: '/images/reactnative.png',
-      title: 'React-Native'
+      title: 'React-Native',
     },
     {
       id: 6,
       img: '/images/Nextjs.png',
-      title: 'Next.js'
+      title: 'Next.js',
     },
     {
       id: 7,
       img: '/images/git.png',
-      title: 'Git & GitHub'
+      title: 'Git & GitHub',
     },
     {
       id: 8,
       img: '/images/emotion.png',
-      title: 'Emotion'
+      title: 'Emotion',
     },
-  ]
+  ];
 
   return (
     <section css={style.section}>
@@ -54,11 +53,13 @@ function Skills() {
           <h1 css={style.titleText}>Skills</h1>
         </div>
         <div css={style.contentWrapper}>
-          {skillList.map((skill) => (<SkillsCard key={skill.id} img={skill.img} title={skill.title} />))}
+          {skillList.map((skill) => (
+            <SkillsCard key={skill.id} img={skill.img} title={skill.title} />
+          ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 const style = {
@@ -67,7 +68,7 @@ const style = {
   `,
   container: tw`
     container
-    px-5
+    px-28
     py-24
     mx-auto
   `,
@@ -88,7 +89,7 @@ const style = {
     flex
     flex-wrap
     -m-4
-  `
-}
+  `,
+};
 
-export default Skills
+export default Skills;
