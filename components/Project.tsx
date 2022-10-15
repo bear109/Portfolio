@@ -183,9 +183,9 @@ function Project() {
               <span css={style.mainEl}>주요기능: </span> 제품 소개 / 이벤트 소개
             </div>
             <div css={style.el}>
-              <span css={style.mainEl}>GitHub: </span>
+              <span css={style.mainEl}>GitHub:</span>
               <Link href={'https://github.com/bear109/starbucks_vanilla_js'} passHref>
-                <a css={style.a}>https://github.com/bear109/starbucks_vanilla_js</a>
+                <a css={style.a}> https://github.com/bear109/starbucks_vanilla_js</a>
               </Link>
             </div>
             <div css={style.el}>
@@ -224,7 +224,7 @@ const style = {
     text-gray-900
   `,
   contentWrapper: tw`
-  w-3/4
+  w-4/5
   flex
   px-5
   py-5
