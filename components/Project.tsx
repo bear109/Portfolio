@@ -60,14 +60,14 @@ function Project() {
   ];
 
   return (
-    <section css={style.section}>
+    <section css={style.section} id="Project">
       <div css={style.container}>
         <div css={style.titleWrapper}>
           <h1 css={style.title}>Projects</h1>
         </div>
         <div css={style.contentWrapper}>
           <div css={style.imageWrapper}>
-            <Image src="/images/blogProject.jpg" alt="image" layout="fill" />
+            <Image src="/images/portfolioProject.jpg" alt="image" layout="fill" />
           </div>
           <div css={style.textWrapper}>
             <h1 css={style.contentTitle}>개인 포트폴리오 웹사이트</h1>

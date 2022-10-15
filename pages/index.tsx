@@ -1,8 +1,8 @@
-import AboutMe from 'components/AboutMe'
-import ContactMe from 'components/ContactMe'
-import Project from 'components/Project'
-import Skills from 'components/Skills'
-import type { NextPage } from 'next'
+import AboutMe from 'components/AboutMe';
+import ContactMe from 'components/ContactMe';
+import Project from 'components/Project';
+import Skills from 'components/Skills';
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Project />
       <ContactMe />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

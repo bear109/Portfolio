@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="ko">
+      <Html lang="ko" className="scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
         <Head>
           <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet" />
           <link
