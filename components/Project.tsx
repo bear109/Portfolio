@@ -78,7 +78,11 @@ function Project() {
               <b>포트폴리오 용도로 제작한 웹사이트 입니다. </b>
               <span css={style.highlight}>Next.js</span>와 <span css={style.highlight}>TypeScript</span>를 기반으로
               제작하였으며 반응형 웹사이트 제작을 위해 <span css={style.highlight}> TailwindCSS</span>와
-              <span css={style.highlight}>Emotion</span>을 사용하였습니다.
+              <span css={style.highlight}>Emotion</span>을 사용하였습니다. 또한,
+              <span css={style.highlight}> vercel</span>을 이용하여 배포하였습니다.
+              <br />
+              <br /> Next.js의 기본적인 기능과 SSR에 대한 고민해 볼 수 있었고 배포하는 과정까지 익힐 수 있는 프로젝트
+              였습니다.
             </div>
             <div css={style.el}>
               <span css={style.mainEl}>주요기능: </span> 자기소개 / 인적사항 / 기술 스택 / 프로젝트 경험
