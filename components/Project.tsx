@@ -90,7 +90,10 @@ function Project() {
               </Link>
             </div>
             <div css={style.el}>
-              <span css={style.mainEl}>URL: </span> https://github.com/bear109/portfolio
+              <span css={style.mainEl}>URL: </span>
+              <Link href={'https://bear109portfolio.vercel.app'} passHref>
+                <a css={style.a}>https://bear109portfolio.vercel.app</a>
+              </Link>
             </div>
             <div css={style.el}>
               <span css={style.mainEl}>기술 스택: </span> Next.js, TypeScript, Emotion, Tailwind CSS
