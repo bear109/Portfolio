@@ -4,61 +4,6 @@ import React from 'react';
 import tw from 'twin.macro';
 
 function Project() {
-  const projectList = [
-    {
-      id: 1,
-      title: '개인 포트폴리오 웹사이트',
-      duration: '22.09~22.10',
-      description:
-        '포트폴리오 용도로 제작한 웹사이트 입니다. Next.js와 TypeScript를 기반으로 제작하였으며 Tailwind CSS와 Emotion을 사용하여 스타일링 하였습니다.',
-      mainFunction: '자기소개, 인적사항, 기술 스택, 프로젝트 경험',
-      github: 'https://github.com/bear109/portfolio',
-      skill: 'Next.js, TypeScript, Emotion, Tailwind CSS',
-      img: '이미지',
-    },
-    {
-      id: 2,
-      title: '유통기한 관리 및 사용자 맞춤 레시피 추천 애플리케이션',
-      duration: '22.02~22.06',
-      description: '프로젝트 설명',
-      mainFunction:
-        '바코드 인식을 통한 식재료 유통기한 관리 / 사용자 선호도 및 최근 조회 기반 레시피 추천 / 식재료 객체 인식을 통한 레시피 검색',
-      github: 'https://github.com/HS-Smartup/Shelf-life-management-Recipe-recommendation',
-      skill: 'React Native, Google API, Naver API, Kakao API, FireBase',
-      img: '이미지',
-    },
-    {
-      id: 3,
-      title: '리액트 블로그 웹사이트',
-      duration: '21.07~21.08',
-      description: '프로젝트 설명',
-      mainFunction: '회원가입 및 로그인 / 포스트 조회, 작성, 수정, 삭제',
-      github: 'https://github.com/bear109/React-blog',
-      skill: 'React, Redux, axios, styled-components',
-      img: '이미지',
-    },
-    {
-      id: 4,
-      title: '스타벅스 웹사이트',
-      duration: '21.05~21.06',
-      description: '프로젝트 설명',
-      mainFunction: '제품 소개, 이벤트 소개',
-      github: 'https://github.com/bear109/starbucks_vanilla_js',
-      skill: 'HTML, CSS, JavaScript',
-      img: '이미지',
-    },
-    {
-      id: 5,
-      title: '프로젝트 제목',
-      duration: '프로젝트 기간',
-      description: '프로젝트 설명',
-      mainFunction: '주요기능',
-      github: '깃허브 주소',
-      skill: '기술 스택',
-      img: '이미지',
-    },
-  ];
-
   return (
     <section css={style.section}>
       <div css={style.container}>
