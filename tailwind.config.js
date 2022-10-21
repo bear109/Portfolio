@@ -8,6 +8,7 @@ module.exports = {
         nanum: ['NanumSquare'],
       },
       height: {
+        98: '32rem',
         100: '42rem',
       },
     },

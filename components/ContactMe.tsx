@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 function ContactMe() {
   return (
-    <section css={style.section}>
+    <section css={style.section} id="ContactMe">
       <div css={style.container}>
         <div css={style.titleWrapper}>
           <h1 css={style.titleText}>Contact Me</h1>

@@ -5,14 +5,14 @@ import tw from 'twin.macro';
 
 function Project() {
   return (
-    <section css={style.section}>
+    <section css={style.section} id="Project">
       <div css={style.container}>
         <div css={style.titleWrapper}>
           <h1 css={style.title}>Projects</h1>
         </div>
         <div css={style.contentWrapper}>
           <div css={style.imageWrapper}>
-            <Image src="/images/blogProject.jpg" alt="image" layout="fill" />
+            <Image src="/images/portfolioProject.jpg" alt="image" layout="fill" />
           </div>
           <div css={style.textWrapper}>
             <h1 css={style.contentTitle}>개인 포트폴리오 웹사이트</h1>
@@ -23,7 +23,11 @@ function Project() {
               <b>포트폴리오 용도로 제작한 웹사이트 입니다. </b>
               <span css={style.highlight}>Next.js</span>와 <span css={style.highlight}>TypeScript</span>를 기반으로
               제작하였으며 반응형 웹사이트 제작을 위해 <span css={style.highlight}> TailwindCSS</span>와
-              <span css={style.highlight}>Emotion</span>을 사용하였습니다.
+              <span css={style.highlight}>Emotion</span>을 사용하였습니다. 또한,
+              <span css={style.highlight}> vercel</span>을 이용하여 배포하였습니다.
+              <br />
+              <br /> Next.js의 기본적인 기능과 SSR에 대한 고민해 볼 수 있었고 배포하는 과정까지 익힐 수 있는 프로젝트
+              였습니다.
             </div>
             <div css={style.el}>
               <span css={style.mainEl}>주요기능: </span> 자기소개 / 인적사항 / 기술 스택 / 프로젝트 경험
@@ -35,7 +39,10 @@ function Project() {
               </Link>
             </div>
             <div css={style.el}>
-              <span css={style.mainEl}>URL: </span> https://github.com/bear109/portfolio
+              <span css={style.mainEl}>URL: </span>
+              <Link href={'https://bear109portfolio.vercel.app'} passHref>
+                <a css={style.a}>https://bear109portfolio.vercel.app</a>
+              </Link>
             </div>
             <div css={style.el}>
               <span css={style.mainEl}>기술 스택: </span> Next.js, TypeScript, Emotion, Tailwind CSS
@@ -128,9 +135,9 @@ function Project() {
               <span css={style.mainEl}>주요기능: </span> 제품 소개 / 이벤트 소개
             </div>
             <div css={style.el}>
-              <span css={style.mainEl}>GitHub: </span>
+              <span css={style.mainEl}>GitHub:</span>
               <Link href={'https://github.com/bear109/starbucks_vanilla_js'} passHref>
-                <a css={style.a}>https://github.com/bear109/starbucks_vanilla_js</a>
+                <a css={style.a}> https://github.com/bear109/starbucks_vanilla_js</a>
               </Link>
             </div>
             <div css={style.el}>
@@ -169,7 +176,7 @@ const style = {
     text-gray-900
   `,
   contentWrapper: tw`
-  w-3/4
+  w-4/5
   flex
   px-5
   py-5
