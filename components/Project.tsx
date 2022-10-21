@@ -26,8 +26,8 @@ function Project() {
               <span css={style.highlight}>Emotion</span>을 사용하였습니다. 또한,
               <span css={style.highlight}> vercel</span>을 이용하여 배포하였습니다.
               <br />
-              <br /> Next.js의 기본적인 기능과 SSR에 대한 고민해 볼 수 있었고 배포하는 과정까지 익힐 수 있는 프로젝트
-              였습니다.
+              <br /> Next.js의 기본적인 기능과 SSR과 SSG에 대해 고민해 볼 수 있었고 배포하는 과정까지 익힐 수 있는
+              프로젝트 였습니다.
             </div>
             <div css={style.el}>
               <span css={style.mainEl}>주요기능: </span> 자기소개 / 인적사항 / 기술 스택 / 프로젝트 경험
@@ -193,7 +193,8 @@ const style = {
   w-1/2
   mb-10
   relative
-bg-gray-600
+  rounded-md
+  overflow-hidden
 `,
   textWrapper: tw`
   lg:flex-grow
